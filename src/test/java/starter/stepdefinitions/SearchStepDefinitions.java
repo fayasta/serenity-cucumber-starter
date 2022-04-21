@@ -36,5 +36,6 @@ public class SearchStepDefinitions {
     public void all_the_result_titles_should_contain_the_word(String term) {
         assertThat(searchResult.displayed()).contains(term);
     }
+
 }
 
